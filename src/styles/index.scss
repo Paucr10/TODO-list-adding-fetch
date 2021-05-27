@@ -74,3 +74,19 @@ p{
 .principal{
     text-align: center;
 }
+
+.cardtodos {
+    width: 25rem !important;
+}
+
+.list-group-item:hover {
+    background-color: rgb(59, 211, 135);  
+}
+
+/* .btn {
+    visibility: hidden;
+} */
+
+.list-group-item:hover :nth-child(1) {
+    visibility: visible !important; 
+}
